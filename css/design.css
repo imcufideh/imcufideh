@@ -1,0 +1,956 @@
+body{
+    color: black;
+    font-size: 1em;
+}
+
+
+header .navbar, .navbar-brand,
+header a{
+    background: #29abe2;
+    color: white;
+    z-index: 999;
+}
+header nav{
+    
+}
+
+
+
+.btn{
+    position: relative;
+    display: inline-block;
+}
+
+#slider #presentacion{
+    position: relative;
+    top: 50px;
+    background: #29abe2;
+    padding: 20px;
+    font-size: 1.2em;
+    background-image: url(../img/domo.jpg);
+}
+
+/*
+.left{
+    left: 80px;
+}
+*/
+
+
+#slider #presentacion div{
+    position: relative;
+    background: #6EC0FF;
+    color: white;
+    margin: 5px;
+}
+
+#slider #presentacion div > p{
+    position: relative;
+    background: #6EC0FF;
+    
+    
+}
+
+#slider #presentacion div > button{
+    position: relative;
+    background: #6EC0FF;
+    font-size: 1.5em;
+    
+}
+
+#slider #presentacion div:nth-child(4) ul li{
+    position: relative;
+    list-style: none;
+    left: -30px;
+    color: white;
+    
+}
+
+/*                 FUTBOL                 */
+#slider #futbol{
+    position: relative;
+    background-image: url("../img/campocel.jpg");
+    background-repeat: round;
+    /* principal     background: #13B632;*/
+    
+    top: 44px;
+    padding-bottom: 30px;
+} 
+
+#slider #futbol h1,
+#slider #futbol div{
+    background: #45B75C;
+    /*background: #41D9FF;*/
+    color: white;
+    top: 30px;
+    position: relative;
+    opacity: .85;
+}
+
+/*               FIN  FUTBOL                 */
+
+
+
+
+/*                   BASQUET                 */
+
+#slider #basquet{
+    position: relative;
+    background-image: url(../img/duelacel.jpg);
+    background-repeat: round;
+    top: 44px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#slider #basquet h1,
+#slider #basquet div{
+    background: #FF6840;
+    position: relative;
+    top: 40px;
+}
+
+/*           FIN     BASQUET                 */
+
+
+/*                   NATACION                 */
+
+#slider #natacion{
+    position: relative;
+    background-image: url(../img/albercacel.jpg);
+    background-repeat: round;
+    color: white;
+    top: 44px;
+    padding-bottom: 120px;
+}
+
+#slider #natacion h1,
+#slider #natacion div{
+    background: #7FE6FF;
+    position: relative;
+    top: 100px;
+}
+
+#slider #natacion h1{
+    position: relative;
+    top: 100px;
+}
+
+
+/*           FIN     NATACION                */
+
+/*             PARQUES                       */
+
+#slider #parques{
+    position: relative;
+    top: 40px;
+    background: #29abe2;
+    color: white;
+    padding-bottom: 200px;
+}
+
+#slider #parques h1:nth-child(1){
+    position: relative;
+    top: 40px;
+}
+
+#slider #parques div{
+    position: relative;
+    top: 40px;
+    background: white;
+    color: #29abe2;
+    vertical-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#slider #parques div h1{
+    font-size: 1.5em;
+}
+
+#slider #parques div h3{
+    font-size: 1em;
+}
+
+    #slider #parques #primerparque div,
+    #slider #parques #santa1 div,
+    #slider #parques #municipal div,
+    #slider #parques #santacuatro div,
+    #slider #parques #xalpauno div,
+    #slider #parques #domo div,
+    #slider #parques #juventud div,
+    #slider #parques #canada div{
+        position: static;
+        width: 96.5%;
+        height: 180px;
+       
+    }
+    
+    #slider #parques #primerparque div{
+    background-image: url(../img/albercasanta/imagen4.jpg);
+    background-repeat: round;
+    }
+    
+    #slider #parques #primerparque div:hover{
+        
+        -webkit-animation: 10s primero infinite;
+    }
+    
+    @-webkit-keyframes primero
+    {
+        0%{
+            background-image: url(../img/albercasanta/imagen4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/albercasanta/imagen1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/albercasanta/parquescentroacuatico1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/albercasanta/imagen4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #santa1 div{
+         background-image: url(../img/santateresa1/santa11.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #santa1 div:hover{
+        -webkit-animation: 10s santauno infinite;
+    }
+    
+    
+    
+    @-webkit-keyframes santauno
+    {
+        0%{
+            background-image: url(../img/santateresa1/santa11.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/santateresa1/santa12.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/santateresa1/santa13.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/santateresa1/santa14.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #municipal div{
+        background-image: url(../img/municipal/municipal.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #municipal div:hover{
+        -webkit-animation: 10s municipal infinite;
+    }
+    
+    @-webkit-keyframes municipal{
+        0%{
+            background-image: url(../img/municipal/municipal.jpg);
+            background-repeat: round;
+        }
+        33%{
+            background-image: url(../img/municipal/municipal1.jpg);
+            background-repeat: round;
+        }
+        66%{
+            background-image: url(../img/municipal/municipal2.jpg);
+            background-repeat: round;
+        }
+    }
+    
+    #slider #parques #santacuatro div{
+        background-image: url(../img/santacuatro/santa41.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #santacuatro div:hover{
+        -webkit-animation: 10s santacuatro infinite;
+    }
+    
+    @-webkit-keyframes santacuatro{
+         0%{
+            background-image: url(../img/santacuatro/santa41.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/santacuatro/santa42.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/santacuatro/santa43.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/santacuatro/santa44.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #xalpauno div{
+        background-image: url(../img/xalpauno/xalpa1.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #xalpauno div:hover{
+        -webkit-animation: 10s xalpauno infinite;
+    }
+    
+    @-webkit-keyframes xalpauno{
+        0%{
+            background-image: url(../img/xalpauno/xalpa1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/xalpauno/xalpa2.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/xalpauno/xalpa3.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/xalpauno/xalpa4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #domo div{
+        background-image: url(../img/domo/domolejos.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #domo div:hover{
+        -webkit-animation: 10s domo infinite;
+    }
+    
+    @-webkit-keyframes domo{
+        0%{
+            background-image: url(../img/domo/domolejos.jpg);
+            background-repeat: round;
+        }
+        33%{
+            background-image: url(../img/domo/domo.jpg);
+            background-repeat: round;
+        }
+        66%{
+            background-image: url(../img/domo/entrada.jpg);
+            background-repeat: round;
+        }
+    }
+    
+    #slider #parques #juventud div{
+        background-image: url(../img/juventud/juventud1.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #juventud div:hover{
+        -webkit-animation: 10s juventud infinite;
+    }
+    
+    
+    @-webkit-keyframes juventud{
+        0%{
+            background-image: url(../img/juventud/juventud1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/juventud/juventud2.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/juventud/juventud3.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/juventud/juventud4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #canada div{
+        background-image: url(../img/canada/canada1.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #canada div:hover{
+        -webkit-animation: 10s canada infinite;
+    }
+    
+    @-webkit-keyframes canada{
+        0%{
+            background-image: url(../img/canada/canada1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/canada/canada2.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/canada/canada3.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/canada/canada4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    color: white;
+    background: black;
+    text-align: center;
+    z-index: 1;
+    bottom: 0px;
+    height: 65px;
+}
+
+footer div{
+    position: relative;
+}
+
+footer div h3{
+    position: relative;
+    font-size: 1.2em;
+    bottom: 18px;
+}
+
+footer div h6{
+    position: relative;
+    font-size: .9em;
+    bottom: 25px;
+    margin: 3px;
+}
+
+
+footer div #face a{
+    background-image: url(../img/faceicon.jpg);
+    background-repeat: round;
+    position: absolute;
+    width: 8%;
+    height: 25px;
+    left: 30px;
+    border-radius: 2px;
+    
+}
+
+footer div #face a:hover{
+    cursor: pointer;
+}
+/*           FIN PARQUES                     */
+
+
+@media screen and (min-width: 480px) {
+    
+    #slider #parques #primerparque div,
+    #slider #parques #santa1 div,
+    #slider #parques #municipal div,
+    #slider #parques #santacuatro div,
+    #slider #parques #xalpauno div,
+    #slider #parques #domo div,
+    #slider #parques #juventud div,
+    #slider #parques #canada div{
+        position: static;
+        width: 96.5%;
+        height: 300px;
+       
+    }
+}
+
+@media screen and (min-width: 600px) {
+    
+}
+
+@media screen and (min-width: 767px) {
+    
+    
+    
+    header{
+        font-size: 1.5em;
+    }
+    
+    .left{
+        left: 80px;
+    }
+    
+    #slider{
+        font-size: 1.3em;
+    }
+    
+    #slider #presentacion{
+        position: relative;
+        background-image: url("../img/entrada.jpg");
+        background-repeat: round;
+        
+    }
+    
+    #slider #presentacion div{
+        margin: 25px;
+        opacity: .89;
+        color: white;
+        
+    }
+    
+    #slider #presentacion div:nth-child(1),
+    #slider #presentacion div:nth-child(3){
+        padding: 10.5px;
+    }
+    
+    
+    #slider #futbol{
+        position: relative;
+        background-image: url("../img/imgcampo%20(9).jpeg");
+        background-repeat: round;
+    }
+    
+    #slider #futbol > div{
+        margin: 90px;
+        font-size: 1.2em;
+        padding: 25px;
+        opacity: .85;
+    }
+    
+    #slider #futbol div:nth-child(3){
+        padding: 63px;
+    }
+    
+    #slider #futbol h1{
+        position: relative;
+        top: 70px;
+        font-size: 4em;
+    }
+    
+    #slider #basquet{
+        position: relative;
+        font-size: 1.3em;
+        background-image: url("../img/duela2.jpeg");
+        background-repeat: round;
+        padding-bottom: 30px;
+    }
+    
+    #slider #basquet h1{
+        
+        position: relative;
+        top: 40px;
+        font-size: 3em;
+    }
+    
+    #slider #basquet div{
+        position: relative;
+        margin: 50px;
+        padding: 20px;
+        opacity: .85;
+        top: 30px;
+        left: 30px;
+        font-size: 1.05em;;
+    }
+    
+    #slider #basquet div:nth-child(3){
+        padding: 37px;
+    }
+    
+    #slider #basquet div:nth-child(4){
+        position: relative;
+        left: 300px;
+    }
+    
+    #slider #basquet #entrenamientos{
+        
+    }
+    
+    #slider #natacion{
+        position: relative;
+        background-image: url("../img/alberca.jpg");
+        background-repeat: round;
+        color: white;
+        
+    }
+    
+    #slider #natacion h1{
+        top: 50px;
+        
+    }
+    
+    #slider #natacion div{
+        margin: 25px;
+        font-size: 1.1em;
+        left: 60px;
+        top: 30px;
+    }
+    
+    #slider #natacion div:nth-child(2){
+        padding: 44px;
+    }
+    
+    #slider #natacion div:nth-child(4){
+        padding: 10px;
+        padding-left: 40px;
+        margin-left: 400px;
+        top: -10px;
+    }
+    
+    #slider #natacion h1{
+        font-size: 3.3em;
+    }
+    
+    #slider #parques{
+        position: relative;
+        background: #29abe2;
+    }
+    
+    #slider #parques h1:nth-child(1){
+        position: absolute;
+        left: 550px;
+        top: 20px;
+        color: white;
+        font-size: 4em;
+    }
+    
+    #slider #parques div{
+        position: relative;
+        top: 90px;
+        margin: 10px;
+        left: 60px;
+        background: white;
+        border-radius: 20px;
+        padding: 20px;
+        color: #29abe2;
+    }
+    
+    #slider #parques #primerparque div,
+    #slider #parques #santa1 div,
+    #slider #parques #municipal div,
+    #slider #parques #santacuatro div,
+    #slider #parques #xalpauno div,
+    #slider #parques #domo div,
+    #slider #parques #juventud div,
+    #slider #parques #canada div{
+        position: static;
+        width: 96.5%;
+        height: 278px;
+       
+    }
+    
+    #slider #parques #primerparque div{
+    background-image: url(../img/albercasanta/imagen4.jpg);
+    background-repeat: round;
+    }
+    
+    #slider #parques #primerparque div:hover{
+        
+        -webkit-animation: 10s primero infinite;
+    }
+    
+    @-webkit-keyframes primero
+    {
+        0%{
+            background-image: url(../img/albercasanta/imagen4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/albercasanta/imagen1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/albercasanta/parquescentroacuatico1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/albercasanta/imagen4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #santa1 div{
+         background-image: url(../img/santateresa1/santa11.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #santa1 div:hover{
+        -webkit-animation: 10s santauno infinite;
+    }
+    
+    
+    
+    @-webkit-keyframes santauno
+    {
+        0%{
+            background-image: url(../img/santateresa1/santa11.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/santateresa1/santa12.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/santateresa1/santa13.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/santateresa1/santa14.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #municipal div{
+        background-image: url(../img/municipal/municipal.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #municipal div:hover{
+        -webkit-animation: 10s municipal infinite;
+    }
+    
+    @-webkit-keyframes municipal{
+        0%{
+            background-image: url(../img/municipal/municipal.jpg);
+            background-repeat: round;
+        }
+        33%{
+            background-image: url(../img/municipal/municipal1.jpg);
+            background-repeat: round;
+        }
+        66%{
+            background-image: url(../img/municipal/municipal2.jpg);
+            background-repeat: round;
+        }
+    }
+    
+    #slider #parques #santacuatro div{
+        background-image: url(../img/santacuatro/santa41.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #santacuatro div:hover{
+        -webkit-animation: 10s santacuatro infinite;
+    }
+    
+    @-webkit-keyframes santacuatro{
+         0%{
+            background-image: url(../img/santacuatro/santa41.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/santacuatro/santa42.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/santacuatro/santa43.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/santacuatro/santa44.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #xalpauno div{
+        background-image: url(../img/xalpauno/xalpa1.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #xalpauno div:hover{
+        -webkit-animation: 10s xalpauno infinite;
+    }
+    
+    @-webkit-keyframes xalpauno{
+        0%{
+            background-image: url(../img/xalpauno/xalpa1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/xalpauno/xalpa2.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/xalpauno/xalpa3.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/xalpauno/xalpa4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #domo div{
+        background-image: url(../img/domo/domolejos.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #domo div:hover{
+        -webkit-animation: 10s domo infinite;
+    }
+    
+    @-webkit-keyframes domo{
+        0%{
+            background-image: url(../img/domo/domolejos.jpg);
+            background-repeat: round;
+        }
+        33%{
+            background-image: url(../img/domo/domo.jpg);
+            background-repeat: round;
+        }
+        66%{
+            background-image: url(../img/domo/entrada.jpg);
+            background-repeat: round;
+        }
+    }
+    
+    #slider #parques #juventud div{
+        background-image: url(../img/juventud/juventud1.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #juventud div:hover{
+        -webkit-animation: 10s juventud infinite;
+    }
+    
+    
+    @-webkit-keyframes juventud{
+        0%{
+            background-image: url(../img/juventud/juventud1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/juventud/juventud2.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/juventud/juventud3.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/juventud/juventud4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    #slider #parques #canada div{
+        background-image: url(../img/canada/canada1.jpg);
+        background-repeat: round;
+    }
+    
+    #slider #parques #canada div:hover{
+        -webkit-animation: 10s canada infinite;
+    }
+    
+    @-webkit-keyframes canada{
+        0%{
+            background-image: url(../img/canada/canada1.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        25%{
+            background-image: url(../img/canada/canada2.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        50%{
+            background-image: url(../img/canada/canada3.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+        75%{
+            background-image: url(../img/canada/canada4.jpg);
+            background-repeat: round;
+            opacity: 1;
+        }
+    }
+    
+    footer{
+        position: fixed;
+        height: 35px;   
+    }
+    
+
+    footer:hover{
+        height: 120px;
+        -webkit-transition-duration: .7s;
+    }
+    
+    footer div h3{
+        font-size: 3em;
+    }
+    
+    footer div h6{
+        display: inline-block;
+        margin-left: 40px;
+        font-size: 1.7em;
+    }
+    
+    footer div #face a{
+        position: absolute;
+        width: 4%;
+        height: 50px;
+        left: 60px;
+        bottom: -70px;
+        border-radius: 5px;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 950px) {
+    
+}

@@ -1,0 +1,402 @@
+body{
+    color: black;
+    font-size: 1em;
+}
+
+
+header .navbar, .navbar-brand,
+header a{
+    background: #29abe2;
+    color: white;
+    z-index: 999;
+}
+header nav{
+    
+}
+
+#face a{
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    background-image: url(../img/faceicon.jpg);
+    background-repeat: round;
+    z-index: 99;
+    top: 150px;
+    position: fixed;
+}
+
+#face a:hover{
+    cursor: pointer;
+}
+
+
+
+.btn{
+    position: relative;
+    display: inline-block;
+}
+
+#slider #presentacion{
+    position: relative;
+    top: 50px;
+    background: #29abe2;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/*
+.left{
+    left: 80px;
+}
+*/
+
+
+#slider #presentacion div{
+    position: relative;
+    background: #6EC0FF;
+    color: white;
+    margin: 5px;
+}
+
+#slider #presentacion div > p{
+    position: relative;
+    background: #6EC0FF;
+    
+    
+}
+
+#slider #presentacion div > button{
+    position: relative;
+    background: #6EC0FF;
+    font-size: 1.5em;
+    
+}
+
+#slider #presentacion div:nth-child(4) ul li{
+    position: relative;
+    list-style: none;
+    left: -30px;
+    color: white;
+    
+}
+
+/*                 FUTBOL                 */
+#slider #futbol{
+    position: relative;
+    background-image: url("../img/campomovil.jpg");
+    background-repeat: round;
+    /* principal     background: #13B632;*/
+    
+    top: 44px;
+    padding-bottom: 30px;
+} 
+
+#slider #futbol h1,
+#slider #futbol div{
+    background: #45B75C;
+    /*background: #41D9FF;*/
+    color: white;
+    top: 30px;
+    position: relative;
+    opacity: .85;
+}
+
+/*               FIN  FUTBOL                 */
+
+
+
+
+/*                   BASQUET                 */
+
+#slider #basquet{
+    position: relative;
+    background: #FF4716;
+    top: 44px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#slider #basquet h1,
+#slider #basquet div{
+    background: #FF6840;
+    position: relative;
+    top: 40px;
+}
+
+/*           FIN     BASQUET                 */
+
+
+/*                   NATACION                 */
+
+#slider #natacion{
+    position: relative;
+    background: #41D9FF;
+    color: white;
+    top: 44px;
+    padding-bottom: 120px;
+}
+
+#slider #natacion h1,
+#slider #natacion div{
+    background: #7FE6FF;
+    position: relative;
+    top: 100px;
+}
+
+#slider #natacion h1{
+    position: relative;
+    top: 100px;
+}
+
+
+/*           FIN     NATACION                */
+
+/*             PARQUES                       */
+
+#slider #parques{
+    position: relative;
+    top: 40px;
+    background: #29abe2;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#slider #parques h1:nth-child(1){
+    position: relative;
+    top: 40px;
+}
+
+#slider #parques div{
+    position: relative;
+    top: 40px;
+    background: white;
+    color: #29abe2;
+    vertical-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#slider #parques div h1{
+    font-size: 1.5em;
+}
+
+#slider #parques div h3{
+    font-size: 1em;
+}
+
+/*           FIN PARQUES                     */
+
+
+@media screen and (min-width: 480px) {
+    #body{
+        font-size: 1.2em;
+    }
+    
+    #face a{
+        width: 6.5%;
+        height: 6.5%;
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    
+}
+
+@media screen and (min-width: 767px) {
+    #body{
+        font-size: 2em;
+    }
+    
+    header{
+        font-size: 1.5em;
+    }
+    
+    #face a{
+        width: 4.5%;
+        height: 8.5%;
+        border-radius: 30px;
+    }
+    
+    .left{
+        left: 80px;
+    }
+    
+    #slider{
+        font-size: 1.3em;
+    }
+    
+    #slider #presentacion{
+        background-image: url("../img/entrada.jpg");
+        background-repeat: round;
+    }
+    
+    #slider #presentacion div{
+        margin: 25px;
+        opacity: .89;
+        
+    }
+    
+    #slider #presentacion div:nth-child(1),
+    #slider #presentacion div:nth-child(3){
+        padding: 10.5px;
+    }
+    
+    
+    #slider #futbol{
+        background-image: url("../img/imgcampo%20(9).jpeg");
+        background-repeat: round;
+    }
+    
+    #slider #futbol > div{
+        margin: 90px;
+        font-size: 1.2em;
+        padding: 25px;
+        opacity: .85;
+    }
+    
+    #slider #futbol div:nth-child(3){
+        padding: 63px;
+    }
+    
+    #slider #futbol h1{
+        position: relative;
+        top: 70px;
+        font-size: 4em;
+    }
+    
+    #slider #basquet{
+        font-size: 1.3em;
+        background-image: url("../img/duela2.jpeg");
+        background-repeat: round;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    
+    #slider #basquet h1{
+        
+        position: relative;
+        top: 40px;
+        font-size: 3em;
+    }
+    
+    #slider #basquet div{
+        position: relative;
+        margin: 50px;
+        padding: 20px;
+        opacity: .85;
+        top: 30px;
+        left: 30px;
+        font-size: 1.05em;;
+    }
+    
+    #slider #basquet div:nth-child(3){
+        padding: 37px;
+    }
+    
+    #slider #basquet div:nth-child(4){
+        position: relative;
+        left: 300px;
+    }
+    
+    #slider #basquet #entrenamientos{
+        
+    }
+    
+    #slider #natacion{
+        background-image: url("../img/alberca.jpg");
+        background-repeat: round;
+        position: relative;
+        
+    }
+    
+    #slider #natacion h1{
+        top: 50px;
+    }
+    
+    #slider #natacion div{
+        margin: 25px;
+        opacity: .92;
+        font-size: 1.1em;
+        left: 60px;
+        top: 30px;
+    }
+    
+    #slider #natacion div:nth-child(2){
+        padding: 44px;
+    }
+    
+    #slider #natacion div:nth-child(4){
+        padding: 10px;
+        padding-left: 40px;
+        margin-left: 400px;
+        top: -10px;
+    }
+    
+    #slider #natacion h1{
+        font-size: 3.3em;
+    }
+    
+    #slider #parques{
+        position: relative;
+        background: #29abe2;
+        padding-bottom: 90px;
+    }
+    
+    #slider #parques h1:nth-child(1){
+        position: absolute;
+        left: 550px;
+        top: 20px;
+        color: white;
+        font-size: 4em;
+    }
+    
+    #slider #parques div{
+        position: relative;
+        top: 90px;
+        margin: 10px;
+        left: 60px;
+        background: white;
+        border-radius: 20px;
+        padding: 20px;
+        color: #29abe2;
+    }
+    
+    #slider #parques div h1{
+        position: relative;
+        
+    }
+    
+    
+    #slider #parques div figure img{
+        
+    }
+    
+}
+
+@media screen and (min-width: 950px) {
+    
+}
+
+/* 
+==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
